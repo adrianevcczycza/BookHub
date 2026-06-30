@@ -1,0 +1,14 @@
+package com.BookHub.dto;
+
+import java.math.BigDecimal;
+import java.time.LocalDate;
+
+public record AutorRequestDto(
+     Long id;
+String titulo;
+String isbn;
+private BigDecimal preco;
+private LocalDate dataPublicacao;
+private String categoria;
+) {
+}
